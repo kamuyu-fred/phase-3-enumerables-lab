@@ -14,12 +14,11 @@ end
 def get_names(spicy_foods)
   # your code here
 
-  # binding.pry
   spicy_foods.map do |food|
     food[:name]
   end
 end
-# p get_names spicy_foods
+
 
 
 # given an array of spicy foods, **return an array of hashes** 
